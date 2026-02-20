@@ -39,6 +39,7 @@ StudyPal-AI provides:
 The system is designed to assist students with structured and interactive learning support.
 
 🛠️ Technology Stack
+
 🔹 Frontend
 
 React (TypeScript)
@@ -74,37 +75,6 @@ StudyPal-AI
 ├── package.json
 ├── vite.config.ts
 └── README.md
-
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/Suvasini911/StudyPal-AI.git
-cd StudyPal-AI
-2️⃣ Install Dependencies
-npm install
-3️⃣ Configure Environment Variables
-
-Create a .env file in the root directory and add:
-
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_key
-
-⚠️ Note: Do not upload .env file to GitHub.
-
-4️⃣ Run the Application
-npm run dev
-
-The application will run locally on:
-
-http://localhost:5173
-📊 System Approach
-
-Data processing and request handling via Supabase
-
-Secure API interaction through environment variables
-
-Modular React component architecture
-
-Scalable frontend structure with reusable UI components
 
 📈 Results
 
