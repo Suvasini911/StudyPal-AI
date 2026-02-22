@@ -1,7 +1,10 @@
 🌱 Green AI Energy Intelligence
 AI-Powered Energy Prediction, Cost Optimization & Carbon Reduction Platform
 
+
+
 A Machine Learning-based web application that predicts household energy consumption, calculates carbon emissions, estimates electricity cost, and provides intelligent optimization recommendations through an interactive Streamlit dashboard.
+
 
 🚨 Problem
 Rising energy consumption leads to:
@@ -15,6 +18,8 @@ Rising energy consumption leads to:
 ❌ No intelligent optimization tools
 
 Traditional systems only show past usage — they don’t predict or optimize.
+
+
 
 💡 Solution
 Green AI Energy Intelligence provides:
@@ -33,6 +38,8 @@ Green AI Energy Intelligence provides:
 
 🖥️ Interactive Streamlit Dashboard
 
+
+
 🧠 Machine Learning Model
 Selected Model: Random Forest Regressor
 
@@ -41,6 +48,8 @@ Selected Model: Random Forest Regressor
 📉 MAE: 0.329
 
 Outperformed Linear Regression (MAE: 0.794)
+
+
 
 📊 Dataset
 UCI Household Electric Power Consumption Dataset
@@ -52,6 +61,8 @@ UCI Household Electric Power Consumption Dataset
 Features: Hour, Day, Month, Reactive Power
 
 Target: Global Active Power (kW)
+
+
 
 🛠️ Tech Stack
 Python 3.12
@@ -70,12 +81,16 @@ Joblib
 
 Google Colab
 
+
+
 📈 Key Impact
 ✔ 15% energy reduction simulation
 ✔ Cost savings projection
 ✔ Carbon reduction calculation
 ✔ Environmental impact translated into tree equivalents
 ✔ Downloadable AI-generated report
+
+
 
 🔮 Future Scope
 IoT smart meter integration
@@ -85,6 +100,8 @@ Deep learning forecasting (LSTM / Transformers)
 Appliance-level detection
 
 Renewable energy integration
+
+
 
 👩‍💻 Author
 Suvasini
