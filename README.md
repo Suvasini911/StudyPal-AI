@@ -1,111 +1,101 @@
-📘 StudyPal-AI
-AI-Powered Smart Study Assistant
-📌 Project Overview
+🌱 Green AI Energy Intelligence
+AI-Powered Energy Prediction, Cost Optimization & Carbon Reduction Platform
 
-StudyPal-AI is an AI-powered academic assistant designed to help students understand concepts, clarify doubts, and improve self-learning efficiency.
+A Machine Learning-based web application that predicts household energy consumption, calculates carbon emissions, estimates electricity cost, and provides intelligent optimization recommendations through an interactive Streamlit dashboard.
 
-The system provides interactive, real-time responses using AI integration and a secure backend infrastructure.
+🚨 Problem
+Rising energy consumption leads to:
 
-This project was developed as part of the AICTE MS Elevate Internship Program (AI/ML Track).
+⚡ Higher electricity bills
 
-🎯 Problem Statement
+🌍 Increased carbon emissions
 
-Students often face difficulties in:
+📉 No predictive insights
 
-Understanding complex academic concepts
+❌ No intelligent optimization tools
 
-Getting instant doubt clarification
+Traditional systems only show past usage — they don’t predict or optimize.
 
-Accessing structured explanations
+💡 Solution
+Green AI Energy Intelligence provides:
 
-Managing independent study effectively
+🔮 Energy Prediction Engine (Random Forest)
 
-There is a need for an intelligent system that provides real-time academic assistance and enhances learning productivity.
+🌍 Carbon Footprint Calculator (0.82 kg CO₂ per kWh)
 
-💡 Proposed Solution
+💰 Cost Estimation & Savings Projection
 
-StudyPal-AI provides:
+📊 12-Month Optimization Simulation
 
-🤖 AI-based interactive study assistant
+📈 Energy Usage Categorization (KMeans)
 
-📚 Concept explanation and doubt solving
+🔍 Model Explainability (SHAP)
 
-⚡ Real-time response generation
+🖥️ Interactive Streamlit Dashboard
 
-🎨 Clean and responsive user interface
+🧠 Machine Learning Model
+Selected Model: Random Forest Regressor
 
-🔐 Secure backend integration using Supabase
+50 Estimators
 
-The system is designed to assist students with structured and interactive learning support.
+📉 MAE: 0.329
 
-🛠️ Technology Stack
+Outperformed Linear Regression (MAE: 0.794)
 
-🔹 Frontend
+📊 Dataset
+UCI Household Electric Power Consumption Dataset
 
-React (TypeScript)
+2M+ minute-level records
 
-Vite
+4 years of energy data
 
-Tailwind CSS
+Features: Hour, Day, Month, Reactive Power
 
-ShadCN UI Components
+Target: Global Active Power (kW)
 
-🔹 Backend
+🛠️ Tech Stack
+Python 3.12
 
-Supabase (Database & Edge Functions)
+Scikit-learn
 
-🔹 Tools & Utilities
+Pandas & NumPy
 
-ESLint
+Matplotlib
 
-Vitest (Testing Framework)
+SHAP
 
-📂 Project Structure
-StudyPal-AI
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── integrations/
-│   └── lib/
-│
-├── supabase/
-├── package.json
-├── vite.config.ts
-└── README.md
+Streamlit
 
-📈 Results
+Joblib
 
-The system successfully:
+Google Colab
 
-Generates structured academic responses
+🚀 How to Run
+Bash
 
-Provides real-time assistance
-
-Maintains responsive and user-friendly design
-
-The project demonstrates practical implementation of AI integration in educational technology.
+git clone https://github.com/your-username/Green-AI-Energy.git
+cd Green-AI-Energy
+pip install -r requirements.txt
+streamlit run app.py
+📈 Key Impact
+✔ 15% energy reduction simulation
+✔ Cost savings projection
+✔ Carbon reduction calculation
+✔ Environmental impact translated into tree equivalents
+✔ Downloadable AI-generated report
 
 🔮 Future Scope
+IoT smart meter integration
 
-Personalized learning recommendations
+Deep learning forecasting (LSTM / Transformers)
 
-Student progress tracking dashboard
+Appliance-level detection
 
-Multi-subject AI modules
-
-Voice-based interaction support
-
-Deployment with scalable cloud infrastructure
+Renewable energy integration
 
 👩‍💻 Author
-
 Suvasini
-AICTE MS Elevate Internship Program – AI/ML
-GitHub: https://github.com/Suvasini911
+CSE – CMR University
+📧 suvasinihuleppa95@gmail.com
 
-📜 License
-
-This project is developed for academic and educational purposes under the AICTE Internship Program.
+Making energy smarter, greener, and AI-driven. 🌍✨
