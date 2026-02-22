@@ -103,19 +103,35 @@ Google Colab
 
 
 🔮 Future Scope
+
+
 IoT smart meter integration
+
+
 
 Deep learning forecasting (LSTM / Transformers)
 
+
+
 Appliance-level detection
+
+
 
 Renewable energy integration
 
 
 
 👩‍💻 Author
+
+
 Suvasini
+
+
 CSE – CMR University
+
+
 📧 suvasinihuleppa95@gmail.com
+
+
 
 Making energy smarter, greener, and AI-driven. 🌍✨
