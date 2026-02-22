@@ -84,10 +84,20 @@ Google Colab
 
 
 📈 Key Impact
+
+
 ✔ 15% energy reduction simulation
+
+
 ✔ Cost savings projection
+
+
 ✔ Carbon reduction calculation
+
+
 ✔ Environmental impact translated into tree equivalents
+
+
 ✔ Downloadable AI-generated report
 
 
